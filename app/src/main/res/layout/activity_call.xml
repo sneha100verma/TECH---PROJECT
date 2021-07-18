@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFCFCF"
+    tools:context="com.example.quizproject.Call"
+    android:orientation="vertical">
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Phone No."
+        android:textSize="30dp"
+        />
+
+    <EditText
+        android:id="@+id/edit_text_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="147dp"
+        android:autofillHints=""
+        android:hint="phone number"
+        android:inputType="number|phone"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:id="@+id/image_call"
+
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:contentDescription="TODO"
+        android:src="@drawable/ic_baseline_call_24"
+        tools:ignore="ContentDescription,HardcodedText" />
+
+</LinearLayout>
